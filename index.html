@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TIC 1ºABC</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <script>
+      let eleccion = parseInt(
+        prompt(
+          "¡Bienvenido al menú mágico de pociones!\n" +
+            "¿Qué poción quieres preparar?\n\n" +
+            "1. Poción de invisibilidad\n" +
+            "2. Poción de risa\n" +
+            "3. Poción de amor\n" +
+            "4. Poción de estornudos infinitos\n" +
+            "5. Poción de convertirte en rana\n"
+        )
+      );
+
+      switch (eleccion) {
+        case 1:
+          alert(
+            " ¡Ahora nadie puede verte! Aunque... has perdido la ropa también "
+          );
+          break;
+        case 2:
+          alert(
+            " ¡JAJAJAJA! Te da un ataque de risa tan fuerte que hasta el gato se ríe contigo."
+          );
+          break;
+        case 3:
+          alert("¡Oh no! ¡Te has enamorado locamente de una silla!");
+          break;
+        case 4:
+          alert(
+            " Aaaachís... Aaaachís... ¡Aaaachís! Esto no va a parar nunca..."
+          );
+          break;
+        case 5:
+          alert(" Croac. Ahora eres una rana. Y alguien te quiere besar...");
+          break;
+        default:
+          alert(
+            " Esa poción no está en el menú... quizá sea demasiado peligrosa."
+          );
+          break;
+      }
+    </script>
+  </body>
+</html>
